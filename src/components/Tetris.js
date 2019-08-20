@@ -19,9 +19,9 @@ const Tetris = () => {
             < Display text="Score"/>
             < Display text="Rows"/>
             < Display text="Level"/>
+            < StartButton />
           </aside>
         </div>
-        < StartButton />
       </StyledTetris>
     </StyledTetrisWrapper>
   );
